@@ -25,15 +25,15 @@ print(data1)
 #Visualize our Stocks Data
 
 #Individual
-'''line1 = px.line(data1, x=data1.index , y= data1['MS'] ,  title = 'Closing Price of MS, BAC, & JPM', color_discrete_sequence="blue").show()
+line1 = px.line(data1, x=data1.index , y= data1['MS'] ,  title = 'Closing Price of MS, BAC, & JPM', color_discrete_sequence="blue").show()
 line2 = px.line(data1, x=data1.index , y= data1['BAC'] ,  title = 'Closing Price of MS, BAC, & JPM', color_discrete_sequence="red").show()
-line3 = px.line(data1, x=data1.index , y= data1['JPM'] ,  title = 'Closing Price of MS, BAC, & JPM', color_discrete_sequence="green").show()'''
+line3 = px.line(data1, x=data1.index , y= data1['JPM'] ,  title = 'Closing Price of MS, BAC, & JPM', color_discrete_sequence="green").show()
 
 
 
 #Comparison on one chart
 
-'''line4 = px.line(data1, title = 'Closing Price of MS, BAC, & JPM').show()'''
+line4 = px.line(data1, title = 'Closing Price of MS, BAC, & JPM').show()
 
 #Get Porfolio Simple Returns, Simple Returns & Log Returns from Jupyter Notebook
 
