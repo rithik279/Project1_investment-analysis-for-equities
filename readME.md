@@ -33,5 +33,41 @@ Edit
 - Python
 - pandas
 - numpy
-- matplotlib / seaborn
+- pyplot
+- yfinance
+
+## Project Summary
+
+- Downloaded Data From Yahoo Finance
+- Visualized the Stock/Portfolio
+- Calculated:
+    - Daily Simple Returns
+    - Daily Log Returns
+    - Annualized Simple Returns
+    - Annualized Log Returns
+    - Daily & Annualized Portfolio Returns (Simple & Log)
+    - Daily Volatility & Annualized Volatility
+    - Benchmark Returns
+    - Alpha
+    - Beta
+    - Sortino Ratio (Using Downside Deviation)
+    - Sharpe Ratio
+    - Maximum Drawdown (Using Cumulative Simple Returns)
+    - Calmar Ratio (Using Max. Drawdown)
+    - Treynor Ratio
+    - Value At Risk Using Historical Method For 90th, 95th & 99th Percentile
+    - Conditional Value At Risk For 95th Percentile
+
+## Next Steps
+
+-Take input from user for 3 stocks
+- Ask the user for their investing goals and tailor the reponse too that
+- Present each value as a dashbioard and explain the signifcance of each value with respect to the ticker that it is derived from.
+- Make recommendations based on the performance of these three stocks
+- Even more advanced: Make a recommendation for the weighting of each stock in the portfolio based on return, risk etc.
+- Can implement these ideas using openai api integration to make this an interactive stock analyzing AI Agent.
+
+
+
+
 
