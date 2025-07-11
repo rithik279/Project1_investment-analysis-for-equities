@@ -1,26 +1,26 @@
-git status
+# git status
 
 
-```gitignore
-# Jupyter
-.ipynb_checkpoints/
+# ```gitignore
+# # Jupyter
+# .ipynb_checkpoints/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
+# # Python
+# __pycache__/
+# *.pyc
+# *.pyo
 
-# Data
-*.csv
-*.xlsx
-*.xls
-*.h5
+# # Data
+# *.csv
+# *.xlsx
+# *.xls
+# *.h5
 
-# Environments
-.env
-.venv/
-env/
-venv/
+# # Environments
+# .env
+# .venv/
+# env/
+# venv/
 
-# VSCode
-.vscode/
+# # VSCode
+# .vscode/
